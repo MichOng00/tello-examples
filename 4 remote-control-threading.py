@@ -1,4 +1,4 @@
-# compared to remote-control.py, video does not pause
+""" Add camera view. Threading prevents camera freezing while moving. """
 from djitellopy import tello
 from threading import Thread
 import cv2, time
@@ -71,3 +71,4 @@ if __name__ == "__main__":
 
     tel.streamon()
     remote_control(tel)
+
