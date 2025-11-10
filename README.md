@@ -1,12 +1,12 @@
 # Tello Drone Python Examples
 
-This repository contains various examples of controlling and interacting with Tello drones using Python. The examples use the [DJITelloPy](https://github.com/damiafuentes/DJITelloPy) library for drone control and [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide) for computer vision tasks like face tracking and expression detection.
+This repository contains various examples of controlling and interacting with Tello drones using Python. The examples use the [DJITelloPy](https://github.com/damiafuentes/DJITelloPy) library for drone control, [OpenCV](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html) and [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide) for computer vision tasks like face tracking and expression detection.
 
 ## Prerequisites
 
 ### 1. Python Version
 
-Ensure that you are using Python 3.9. You can create a virtual environment using either `venv` or `conda`:
+Ensure that you are using Python 3.9. The code may work for later versions of Python, but this has not yet been tested. You can create a virtual environment using either `venv` or `conda`:
 
 #### Using `venv`:
 
